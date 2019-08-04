@@ -35,7 +35,7 @@ build_docproc: $(obj)/docproc
 subdir-$(CONFIG_MODVERSIONS) += genksyms
 subdir-y                     += mod
 subdir-$(CONFIG_SECURITY_SELINUX) += selinux
-subdir-$(CONFIG_DTC)         += dtc-aosp
+subdir-$(CONFIG_DTC)         += dtc
 
 # Let clean descend into subdirs
 subdir-	+= basic kconfig package
