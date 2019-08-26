@@ -6,6 +6,7 @@ obj-$(CONFIG_STAGING)		+= staging.o
 obj-y				+= media/
 obj-$(CONFIG_SLICOSS)		+= slicoss/
 obj-$(CONFIG_PRISM2_USB)	+= wlan-ng/
+obj-$(CONFIG_ANDROID_SIMPLE_LMK)	+= simple_lmk.o
 obj-$(CONFIG_COMEDI)		+= comedi/
 obj-$(CONFIG_FB_OLPC_DCON)	+= olpc_dcon/
 obj-$(CONFIG_PANEL)		+= panel/
